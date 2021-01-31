@@ -21,7 +21,7 @@ function Home() {
         <div>
             <Jumbotron class="col-12"style={{backgroundColor: 'cyan',justifyContent: 'center'}}>
         <div style={{backgroundColor: 'red',width: '400px',height: '400px',borderRadius: '200px',margin: '0 auto'}} >
-        <img class="center" src={Rick} style={{borderRadius: '150px'}} height='300px' width='300px'></img>
+        <img class="center" src={Rick} style={{borderRadius: '150px'}} height='300px' width='300px' alt="my_img"></img>
         </div>
         <h1 className="display-2">Hello, peeps! 👐</h1>
         <h3 className="lead">This is Shubhank 😁, an undergrad at NITW</h3>
@@ -35,6 +35,7 @@ function Home() {
                 href={media.link}
                 className={`icon-button`}
                 target="_blank"
+                rel="noreferrer"
             >
                 <IconWrapper {...media}>
                 <i className={`fa ${media.fontAwesomeIcon}`}></i>

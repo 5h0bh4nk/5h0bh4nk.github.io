@@ -7,13 +7,12 @@ import { projects } from '../portfolio';
 import rick from '../assets/rick.jpg'
 
 function Projects() {
-    const [align, setAlign]=useState('left')
     return (
         <div>
            { projects.map((project) => {
                 return(
                     <Card style={{border: '2px solid green',margin: '20px 20px 20px 20px',backgroundColor: 'cyan'}} class="col-12 col-md-6">
-                       <CardImg src={rick} alt={project.name} style={{float: {align}}} />
+                       <CardImg src={rick} alt={project.name} />
                         <Card body inverse color="warning" >
                             <CardTitle tag='h4'>{project.name}</CardTitle>
                             <CardSubtitle tag='h5' className='mb-2 text-mutes'>{project.title}</CardSubtitle>
