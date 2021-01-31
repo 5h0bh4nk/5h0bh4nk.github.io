@@ -36,9 +36,6 @@ function Projects() {
                         </Card>
                     </Card>
                 );
-                {
-                    align==='true'?setAlign('right'):setAlign('left');
-                }
             })}
         </div>
     )
