@@ -3,8 +3,8 @@ import Home from './Components/Home'
 // import { fab } from '@fortawesome/free-brands-svg-icons'
 
 import Projects from './Components/Projects'
-import About from './Components/About'
-import Contact from './Components/Contact'
+// import About from './Components/About'
+// import Contact from './Components/Contact'
 import './App.css';
 
 
