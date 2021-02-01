@@ -22,7 +22,7 @@ function Navpage() {
                 <NavbarBrand href="/" 
                 style={{
                     fontFamily: 'Agustina Regular',
-                    fontSize: '32px',
+                    fontSize: '28px',
                     fontWeight: '700',
                     padding: '20px 10px'}} 
                 >
