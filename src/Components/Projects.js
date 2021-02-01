@@ -4,8 +4,7 @@ import {
   CardTitle, CardSubtitle
 } from 'reactstrap';
 import { projects } from '../portfolio';
-import rick from '../assets/rick.jpg'
-import '../styles/Project.css'
+
 
 function Projects() {
     return (
@@ -16,8 +15,8 @@ function Projects() {
             fontSize: '100px'}}>Projects</h1>
            { projects.map((project) => {
                 return(
-                    <Card style={{border: '2px solid green',margin: '20px 20px 20px 20px',backgroundColor: 'cyan'}} class="col-12 col-md-6">
-                       <CardImg src={rick} alt={project.name}/>
+                    <Card style={{border: '2px solid green',margin: '20px 20px 20px 20px',backgroundColor: '#152238',padding: '20px'}} class="col-12 col-md-6">
+                       <CardImg src={project.img} alt={project.name}/>
                         <Card body inverse color="warning" >
                             <CardTitle tag='h4'  style={{color: 'black'}}>{project.name}</CardTitle>
                             <CardSubtitle tag='h5' className='mb-2 text-mutes'  style={{color: 'black'}}>{project.title}</CardSubtitle>

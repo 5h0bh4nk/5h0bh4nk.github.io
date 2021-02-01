@@ -38,6 +38,7 @@ const socialMediaLinks = [
 const projects=[
   {
     name: 'CHATTORE',
+    img: '../assets/chattore.png',
     title: 'A public chatroom',
     badges: ['mdl','firebase'],
     desc: 'A public chatroom which requires login authentication from google using firbase and also stores the chat in its database . It only allows verified users to send messages in chat and also displays their name and google profile photo along with their message .It currently shows only last 36 messages , which can be changed to a longer length .',
@@ -47,6 +48,7 @@ const projects=[
   {
     name: 'TrivalantE',
     title: 'A restuarant site',
+    img: '../assets/trivalent.png',
     badges: ['html','css','bootstrap'],
     desc: 'This is a fully rendered restaurant site made using html, css and bootstrap . The basic aim was to learn grids in bootstrap while making a product for future use .',
     repo_link: 'https://github.com/5h0bh4nk/TrivalantE',
@@ -55,6 +57,7 @@ const projects=[
   {
     name: 'Tic-Tac-Toe',
     title: 'The original game',
+    img: '../assets/tic-tac.png',
     badges: ['particlebg','react','reactstrap'],
     desc: 'The game we used to play on paper turns to pc and is multiplayer like childhood.I tried useHistory property of react to save all the moves of the player and game can be played from previous turns as well .',
     repo_link: 'https://github.com/5h0bh4nk/React-TICTAC',
