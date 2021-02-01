@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'ComputerAmok';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ComputerAmok'), url('ComputerAmok.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Computo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('ComputoMonospace-p73xO.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nightmare';
+    font-style: normal;
+    font-weight: normal;
+    src: url('NightmareCodehack-lrA5.ttf') format('truetype');
+}

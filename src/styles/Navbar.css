@@ -4,3 +4,23 @@
     font-weight: normal;
     src: local('Agustina Regular'), url('Agustina.woff') format('woff');
 }
+@font-face {
+  font-family: 'ComputerAmok';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ComputerAmok'), url('ComputerAmok.ttf') format('ttf');
+}
+@media screen and (max-width : 500px)
+{
+  .navbar
+  {
+    font:20px;
+  }
+}
+@media screen and (max-width : 1204px)
+{
+  .navbar
+  {
+    font:32px;
+  }
+}

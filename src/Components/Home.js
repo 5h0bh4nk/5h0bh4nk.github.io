@@ -4,6 +4,7 @@ import "../styles/SocialMedia.css";
 import { socialMediaLinks } from "../portfolio";
 import styled from "styled-components";
 import Rick from "../assets/rick.jpg"
+import '../styles/Home.css'
 
 function Home() {
     const IconWrapper = styled.span`
@@ -19,14 +20,22 @@ function Home() {
 
     return (
         <div>
-            <Jumbotron class="col-12"style={{backgroundColor: 'cyan',justifyContent: 'center'}}>
-        <div style={{backgroundColor: 'red',width: '400px',height: '400px',borderRadius: '200px',margin: '0 auto'}} >
+            <Jumbotron style={{backgroundColor: '#B7E9F7',alignSelf: 'center'}}>
+        <div className="col-12" style={{backgroundColor: 'red',width: '400px',height: '400px',borderRadius: '200px',margin: '0 auto'}} >
         <img class="center" src={Rick} style={{borderRadius: '150px'}} height='300px' width='300px' alt="my_img"></img>
         </div>
-        <h1 className="display-2">Hello, peeps! 👐</h1>
-        <h3 className="lead">This is Shubhank 😁, an undergrad at NITW</h3>
+        <h1 className="display-2"
+        style={{
+            fontFamily: 'Nightmare',
+        }}
+        >HELLO , WORLD !!</h1>
+        <h2 className="lead"
+                style={{
+                    fontFamily: 'Computo',
+                    fontWeight: '500'}} 
+                    >This is Shubhank 😁, an undergrad at NITW
+        </h2>
         <hr className="my-2" />
-
 
         <div className="social-media-div">
         { socialMediaLinks.map((media) => {
