@@ -32,13 +32,13 @@ function Navpage() {
                 <Collapse isOpen={open} navbar >
                     <Nav style={{color: 'black'}}  className="ml-auto my" navbar>
                         <NavItem >
-                            <NavLink href="#About">About me 😉</NavLink>
+                            <NavLink href="#about">About me 😉</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#Projects">Projects 🤓</NavLink>
+                            <NavLink href="#project">Projects 🤓</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#Contact Me">Contact Me 📩</NavLink>
+                            <NavLink href="#contact">Contact Me 📩</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

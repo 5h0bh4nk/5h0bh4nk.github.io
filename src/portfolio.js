@@ -66,6 +66,7 @@ const projects=[
   {
     name: '14DeV',
     title: 'Devathon project',
+    img: '../assets/docs.jpg',
     badges: ['php','html','css','bootstrap'],
     desc: 'This is a file management system which can be used in colleges to verify documents of students . There are multiple portals for admin as well as students in this . It allows students to submit a document and the admin account has privilige to verify , accept and reject the doc . ',
     repo_link: 'https://github.com/5h0bh4nk/14DeV',

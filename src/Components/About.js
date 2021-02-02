@@ -3,7 +3,7 @@ import '../styles/Home.css'
 
 function About() {
     return (
-        <div class="container">
+        <div id="about" class="container">
             <h1 style={{
             fontFamily: 'Nightmare',
             fontWeight: '500',

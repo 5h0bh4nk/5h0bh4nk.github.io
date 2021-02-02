@@ -2,7 +2,7 @@ import Navbar from './Components/Navpage'
 import Home from './Components/Home'
 import Projects from './Components/Projects'
 import About from './Components/About'
-// import Contact from './Components/Contact'
+import Contact from './Components/Contact'
 import './App.css';
 
 
@@ -17,9 +17,7 @@ function App() {
       <Home />
       <About />
       <Projects />
-
-            {/*
-      <Contact /> */}
+      <Contact />
     </div>
   );
 }
