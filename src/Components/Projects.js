@@ -12,7 +12,8 @@ function Projects() {
         <h1 style={{
             fontFamily: 'Nightmare',
             fontWeight: '500',
-            fontSize: '100px'}}>Projects</h1>
+            fontSize: '100px',
+            color: '#f29f04'}}>Projects</h1>
            { projects.map((project) => {
                 return(
                     <Card style={{border: '2px solid green',margin: '20px auto',backgroundColor: '#152238',padding: '20px'}} className="col-12 col-sm-8">

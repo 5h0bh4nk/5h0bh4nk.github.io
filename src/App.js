@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App"
     style={{
-      backgroundImage: 'linear-gradient(#B7E9F7,violet)',
+      backgroundColor: '#152238',
     }}
     >
       <Navbar />

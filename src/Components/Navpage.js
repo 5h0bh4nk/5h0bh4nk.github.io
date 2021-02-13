@@ -16,7 +16,7 @@ function Navpage() {
     const toggle = () =>setOpen(!open);
 
     return (
-        <div class="col-12" //style={{backgroundColor: '#B7E9F7'}}
+        <div class="col-12" style={{backgroundColor: '#B7E9F7'}}
         >
             <Navbar expand="md" light style={{color: 'black'}}  fixed>
                 <NavbarBrand href="/" 
