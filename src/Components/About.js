@@ -14,9 +14,6 @@ function About() {
                 <span style={{color: 'cyan'}}>Web development</span> and <span style={{color: 'cyan'}}>Cyber Security</span> are my fields of interest . 
 
             </h2>
-            <h2 style={{
-                color: '#fddb27ff'
-            }}></h2>
             
         </div>
     )
