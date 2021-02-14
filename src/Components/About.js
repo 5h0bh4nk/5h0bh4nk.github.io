@@ -16,7 +16,7 @@ function About() {
             </h2>
             <h2 style={{
                 color: '#fddb27ff'
-            }}>I like to explore new technologies and work on them .</h2>
+            }}></h2>
             
         </div>
     )
