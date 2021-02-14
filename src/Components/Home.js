@@ -55,6 +55,8 @@ function Home() {
             </a>
             );
         })}
+    <br></br><br></br>
+        <button class="btn"><span>Resume download</span></button>
         </div>    
         </Jumbotron>
     </div>

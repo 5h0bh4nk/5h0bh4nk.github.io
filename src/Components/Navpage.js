@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import '../styles/Navbar.css'
+//import '../styles/Navbar.css'
+
 import {
     Collapse,
     Navbar,
@@ -32,13 +33,13 @@ function Navpage() {
                 <Collapse isOpen={open} navbar >
                     <Nav style={{color: 'black'}}  className="ml-auto my" navbar>
                         <NavItem >
-                            <NavLink href="#about">About me 😉</NavLink>
+                            <NavLink href="#about" data-scroll="">About me 😉</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#project">Projects 🤓</NavLink>
+                            <NavLink href="#project" data-scroll="">Projects 🤓</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#contact">Contact Me 📩</NavLink>
+                            <NavLink href="#contact" data-scroll="">Contact Me 📩</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

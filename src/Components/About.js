@@ -8,12 +8,16 @@ function About() {
             fontFamily: 'Nightmare',
             fontWeight: '500',
             fontSize: '100px'}}>About</h1>
-            <p style={{
-                fontFamily: 'Computo'
+            <h2 style={{
+                color: '#fddb27ff'
             }}>I am currently pursuing my undergrad in National Institute of Technology , Warangal . Exploring new technologies and working on them is what i am passionate about .
-                Web developmemt and Cyber Security are my fields of interest . 
+                <span style={{color: 'cyan'}}>Web development</span> and <span style={{color: 'cyan'}}>Cyber Security</span> are my fields of interest . 
 
-            </p>
+            </h2>
+            <h2 style={{
+                color: '#fddb27ff'
+            }}>I like to explore new technologies and work on them .</h2>
+            
         </div>
     )
 }
