@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron} from 'reactstrap'
+import { Jumbotron, Button} from 'reactstrap'
 import "../styles/SocialMedia.css";
 import { socialMediaLinks } from "../portfolio";
 import styled from "styled-components";
@@ -56,7 +56,11 @@ function Home() {
             );
         })}
     <br></br><br></br>
-        <a className="btn" href="https://drive.google.com/file/d/1eGgAaHTT-EDmfcqMFxbommQYOpcELBz6/view?usp=sharing"><i className="fa fa-download"></i><span>{' '} Resume Download </span></a>
+            <Button className="btn" onClick={()=>{
+                                window.location="https://drive.google.com/file/d/1eGgAaHTT-EDmfcqMFxbommQYOpcELBz6/view?usp=sharing";
+                            }} >
+                <i className="fa fa-download"></i><span>{' '} Resume Download </span>
+            </Button>
         </div>    
         </Jumbotron>
     </div>
