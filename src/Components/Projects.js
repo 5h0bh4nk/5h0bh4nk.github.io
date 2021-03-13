@@ -34,13 +34,13 @@ function Projects() {
                             <CardText  style={{color: 'black'}}>{project.desc}</CardText>
                             <Button className="btn" onClick={()=>{
                                 window.location=project.repo_link;
-                            }} ><i class="fa fa-github"></i>&nbsp;Source Code</Button>
+                            }} ><i class="fa fa-github"></i><span>&nbsp;Source Code</span></Button>
                             <br />
                             {
                                 project.demo_link?
                                 <Button onClick={()=>{
                                     window.location=project.demo_link;
-                                }} ><i class="fa fa-link"></i>&nbsp;Demo_Link</Button>:<div></div>
+                                }} ><i class="fa fa-link"></i><span>&nbsp;Demo_Link</span></Button>:<div></div>
                             }
                         </Card>
                     </Card>
