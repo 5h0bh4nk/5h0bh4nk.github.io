@@ -4,6 +4,7 @@ import {
   CardTitle, CardSubtitle
 } from 'reactstrap';
 import { projects } from '../portfolio';
+import '../styles/Home.css';
 
 
 function Projects() {
@@ -31,7 +32,7 @@ function Projects() {
                             }
                             </h4>
                             <CardText  style={{color: 'black'}}>{project.desc}</CardText>
-                            <Button onClick={()=>{
+                            <Button className="btn" onClick={()=>{
                                 window.location=project.repo_link;
                             }} ><i class="fa fa-github"></i>&nbsp;Source Code</Button>
                             <br />

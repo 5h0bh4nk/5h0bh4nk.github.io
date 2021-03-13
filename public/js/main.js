@@ -12,6 +12,5 @@ const easeOutBounce = (_, t, b, c, d) => {
 
 document.addEventListener("DOMContentLoaded",function(){
     new SweetScroll({
-        easing: easeOutBounce,
-        duration: 1000,   
+      duration: 1500
     })});
